@@ -26,7 +26,7 @@ if __name__ == "__main__":
     setup(
         name="EBglmnet",
         version=_VERSION,
-        description="Python wrapper for sparseSEM",
+        description="Python wrapper for EBglmnet",
         long_description_content_type="text/markdown",
         long_description=open('README.md').read(),
         author="Anhui Huang",
