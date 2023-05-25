@@ -129,7 +129,7 @@ void elasticNetLinear(double *BASIS, double *y, double *a_lambda, double *b_Alph
 
 	wald[0]					= 0;
 	int index = 0;
-	if(verbose >1) printf("EBLASSO Finished, number of basis: %d\n",M);
+	if(verbose >1) printf("EBglmnet Finished, number of basis: %d\n",M);
 	for(i=0;i<M;i++)
     {
 

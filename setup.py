@@ -1,7 +1,7 @@
 import os
 from setuptools import setup, Extension, find_packages
 import subprocess
-_VERSION = "1.0"
+_VERSION = "1.1"
 
 EBglmnet_lib = Extension(name='EBglmnet.EBglmnet',
                           sources=['EBglmnet/src/Binary.c',
