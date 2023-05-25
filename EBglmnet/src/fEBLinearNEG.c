@@ -92,7 +92,7 @@ void fEBLinearMainEff(double *BASIS, double *y, double *a_gamma, double *b_gamma
 	iteration				= (int* ) calloc(1, sizeof(int));
 	m						= (int* ) calloc(1, sizeof(int));
 	C_inv					= (double * ) calloc(N*N, sizeof(double));
-	if(verbose >1) printf("outer loop starts");
+	if(verbose >1) printf("outer loop starts\n");
 	m[0]			 		= 1;
 	int M					= m[0];		
 	//Fixed Effect
